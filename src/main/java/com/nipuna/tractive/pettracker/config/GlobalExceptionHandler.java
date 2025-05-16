@@ -1,4 +1,4 @@
-package com.nipuna.tractive.pettracker.exception;
+package com.nipuna.tractive.pettracker.config;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
