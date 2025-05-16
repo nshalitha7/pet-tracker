@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:tractivedb;DB_CLOSE_DELAY=-1
+  jpa:
+    hibernate.ddl-auto: update
+  h2.console.enabled: true
