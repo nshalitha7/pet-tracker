@@ -1,4 +1,4 @@
-package com.nipuna.tractive.pettracker.web;
+package com.nipuna.tractive.pettracker.controller;
 
 import com.nipuna.tractive.pettracker.dto.PetRequestDto;
 import com.nipuna.tractive.pettracker.dto.PetResponseDto;

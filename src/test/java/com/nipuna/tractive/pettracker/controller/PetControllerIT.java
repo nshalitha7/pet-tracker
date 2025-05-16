@@ -1,10 +1,10 @@
-package com.nipuna.tractive.pettracker.web;
+package com.nipuna.tractive.pettracker.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nipuna.tractive.pettracker.PetTrackerApplication;
 import com.nipuna.tractive.pettracker.dto.PetRequestDto;
-import com.nipuna.tractive.pettracker.domain.PetType;
-import com.nipuna.tractive.pettracker.domain.TrackerType;
+import com.nipuna.tractive.pettracker.model.PetType;
+import com.nipuna.tractive.pettracker.model.TrackerType;
 import com.nipuna.tractive.pettracker.repository.PetRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

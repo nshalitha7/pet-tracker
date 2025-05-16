@@ -1,4 +1,4 @@
-package com.nipuna.tractive.pettracker.domain;
+package com.nipuna.tractive.pettracker.model;
 
 import jakarta.persistence.Entity;
 import lombok.Getter;

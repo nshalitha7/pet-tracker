@@ -1,7 +1,7 @@
 package com.nipuna.tractive.pettracker.dto;
 
-import com.nipuna.tractive.pettracker.domain.PetType;
-import com.nipuna.tractive.pettracker.domain.TrackerType;
+import com.nipuna.tractive.pettracker.model.PetType;
+import com.nipuna.tractive.pettracker.model.TrackerType;
 import jakarta.validation.constraints.NotNull;
 
 public record PetRequestDto(
@@ -10,5 +10,6 @@ public record PetRequestDto(
         @NotNull Integer ownerId,
         boolean inZone,
         Boolean lostTracker
-) { }
+) {
+}
 

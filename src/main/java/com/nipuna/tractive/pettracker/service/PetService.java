@@ -1,7 +1,7 @@
 package com.nipuna.tractive.pettracker.service;
 
-import com.nipuna.tractive.pettracker.domain.Pet;
-import com.nipuna.tractive.pettracker.domain.PetType;
+import com.nipuna.tractive.pettracker.model.Pet;
+import com.nipuna.tractive.pettracker.model.PetType;
 import com.nipuna.tractive.pettracker.dto.PetRequestDto;
 import com.nipuna.tractive.pettracker.dto.PetResponseDto;
 import com.nipuna.tractive.pettracker.dto.SummaryItemDto;

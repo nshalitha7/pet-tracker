@@ -1,8 +1,8 @@
 package com.nipuna.tractive.pettracker.mapper;
 
-import com.nipuna.tractive.pettracker.domain.Cat;
-import com.nipuna.tractive.pettracker.domain.Dog;
-import com.nipuna.tractive.pettracker.domain.Pet;
+import com.nipuna.tractive.pettracker.model.Cat;
+import com.nipuna.tractive.pettracker.model.Dog;
+import com.nipuna.tractive.pettracker.model.Pet;
 import com.nipuna.tractive.pettracker.dto.PetRequestDto;
 import com.nipuna.tractive.pettracker.dto.PetResponseDto;
 import org.mapstruct.Mapper;
@@ -18,6 +18,6 @@ public interface PetMapper {
     Dog toDog(PetRequestDto dto);
 
     // Only Cats have lostTracker; null for other pet types
-    @Mapping(target = "lostTracker", expression = "java(p instanceof com.nipuna.tractive.pettracker.domain.Cat ? ((Cat)p).isLostTracker() : null)")
+    @Mapping(target = "lostTracker", expression = "java(p instanceof com.nipuna.tractive.pettracker.model.Cat ? ((Cat)p).isLostTracker() : null)")
     PetResponseDto toResponseDto(Pet p);
 }
